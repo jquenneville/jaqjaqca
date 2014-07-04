@@ -1,0 +1,95 @@
+/* css goes here for jaqs website */
+@charset "UTF-8";
+/* CSS Document */
+
+div#wrapper {
+	/*background: blue;*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+}
+
+div#links{
+	/*background: yellow;*/
+	float: right;
+	display: block;
+	padding-left: 550px;
+}
+
+div#header{
+	/*background: green;*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#header img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#content{
+	/*background: red;*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+div#contentl{
+	/*background: purple;*/
+	float: left;
+	width: 300px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+div#contentl h1{
+	display: block;
+	margin-top: 0px;
+	margin-bottom: 10px; /*can comment for a litl emore room */
+	-webkit-margin-start: 10px; /*bc webkit, prob will display wrong on firefox */
+	font-family: 'Josefin Slab', serif;
+}
+
+div#contentl p{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px; /*can comment out to give lil space*/
+    width: 280px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+div#contentl img{
+	padding-left: 80px;
+	padding-top: 10px;
+}
+
+div#contentr{
+	/*background: pink;*/
+	float: right;
+	margin-top: 10px;
+}
+
+div#footer{
+	width: 210px;
+	height: 30px;
+	float: right;
+	margin-left: 195px;
+	margin-right: 195px;
+}
+
+div#footer img{
+	padding-left: 10px;
+	height:30px;
+	width: 30px;
+}
+
+div#footer a{
+	text-decoration: none;
+	height:30px;
+	width: 30px;
+}
